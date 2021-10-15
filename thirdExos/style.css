@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+    background: linear-gradient(45deg, #4389A2,  #5C258D 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+#mySection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+#myDiv {
+    background-color: white;
+    width : 500px;
+    height: 500px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#firstP {
+    font-weight: bold;
+    text-align: center;
+}
+#firstP img{
+    height: 1rem;
+    width: 1rem;
+}
+#secondP{
+    font-weight: lighter;
+    text-align: center;
+}
+#myButton {
+    width: 500px;
+    height: 50px;
+    background: linear-gradient(45deg, #ff5e62,  #ff9966 100%);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+}
