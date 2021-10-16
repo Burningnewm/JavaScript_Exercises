@@ -14,8 +14,9 @@
     <h2 id=dateTime></h2>
     <form onsubmit= "event.preventDefault();">
         <div class="mb-3 row" id="myDiv">
-            <input class="form-control col-auto" id="text" type="text" placeholder="Devinez le prix ! (entre 0 et 1000)" aria-label="default input example" required>
+            <input class="form-control col-auto" id="text" type="text" placeholder="Devinez le prix ! (entre 0 et 1000)" aria-label="default input example">
             <button type="submit" class="btn btn-primary col-auto" id="button">Deviner</button>
+            <div class="invalid-feedback" id="feedback" style="display: none">Veuillez entrer un nombre entre 0 et 1000!</div>
         </div>
       </form>
     </section>
